@@ -917,7 +917,7 @@ section {
 # Comments
 --------------------------------------------------------------*/
 .comment {
-  /* Font not working in <textarea> for this version of bs */
+  color:#f2f2f2; /* Font not working in <textarea> for this version of bs */
 }
 
 .comment .avatar {
