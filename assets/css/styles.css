@@ -1,4 +1,13 @@
-.logo_name{
-    font-family: "Tilt Neon", sans-serif;
+
+.logo_name {
+    font-family: "Whisper", cursive;
+    font-weight: 580;
+    font-style: normal;
+    font-size: 50px;
     color: rgb(29, 83, 120);
+}
+
+.logo_span{
+    font-size: 90px;
+    font-weight: 500;
 }
