@@ -1,17 +1,5 @@
-.logo_name {
-  font-family: "Whisper", cursive;
-  font-weight: 580;
-  font-style: normal;
-  font-size: 40px;
-  color: rgb(29, 83, 120);
-}
-
-.logo_span {
-  font-size: 90px;
-  font-weight: 500;
-}
-
-.navbar ul li a {
-  font-family: "Caveat", cursive;
-  font-size: 20px;
+.logo_name{
+    color: rgb(29, 83, 120);
+    font-weight: 500;
+    font-size: 33px;
 }
