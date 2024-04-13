@@ -11,3 +11,8 @@
     font-size: 90px;
     font-weight: 500;
 }
+
+.navbar ul li a {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+}
