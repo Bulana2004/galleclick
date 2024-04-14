@@ -3,15 +3,20 @@ body{
 }
 
 header .navbar ul li i {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .logo_name{
     color: rgb(29, 83, 120);
     font-weight: 500;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .catlog{
     background-color: rgb(249, 249, 249);
+}
+
+.price_topic{
+    font-size: 50px;
+    font-weight: 500;
 }
