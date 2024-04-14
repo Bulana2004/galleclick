@@ -1,7 +1,15 @@
+body{
+    font-family: "Dosis", sans-serif;
+}
+
+header .navbar ul li i {
+    font-size: 15px;
+}
+
 .logo_name{
     color: rgb(29, 83, 120);
     font-weight: 500;
-    font-size: 33px;
+    font-size: 45px;
 }
 
 .catlog{
