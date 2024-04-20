@@ -114,8 +114,9 @@ section {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: #f2f2f2;
-  border-bottom: 2px solid rgb(29, 83, 120);
+  background: black;
+  border-bottom: 2px solid tomato;
+  
 }
 
 .header.sticked {
@@ -236,11 +237,11 @@ section {
     margin-left: 5px;
   }
 
-  .navbar a:hover,
-  .navbar .active,
-  .navbar .active:focus,
-  .navbar li:hover>a {
-    color: var(--color-default);
+  .navbar .dropdown-menu a:hover,
+  .navbar .dropdown-menu .active,
+  .navbar .dropdown-menu .active:focus,
+  .navbar .dropdown-menu li:hover>a {
+    color: black;
   }
 
   .navbar .getstarted,
@@ -249,7 +250,7 @@ section {
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
-    color: var(--color-white);
+    color: black;
   }
 
   .navbar .getstarted:hover,
