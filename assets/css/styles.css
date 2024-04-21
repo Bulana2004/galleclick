@@ -16,3 +16,10 @@ header .navbar ul li i {
     font-size: 50px;
     font-weight: 500;
 }
+
+.btn-close {
+    background-color:white;
+    color: white;
+    border-color: white; 
+  }
+  
