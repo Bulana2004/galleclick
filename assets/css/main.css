@@ -115,7 +115,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   background: black;
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid rgb(42, 133, 195);
   
 }
 
