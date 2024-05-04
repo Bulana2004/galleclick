@@ -983,7 +983,96 @@
                 <div class="row mb-5">
                     <div class="d-md-flex post-entry-2 half">
                         <a href="#preshoot" class="me-4 thumbnail">
-                            <img src="img/banner4.jpg" alt="" class="img-fluid">
+                            <!--Pre shoot Carousel-->
+                            <div id="carouselExampleAutoplaying_preshoot" class="carousel slide"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="preshoot/b1.jpg" class="img-fluid" alt="..." data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal_preshoot">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="preshoot/b2.jpg" class="img-fluid" alt="..." data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal_preshoot">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="preshoot/b3.jpg" class="img-fluid" alt="..." data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal_preshoot">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="preshoot/b4.jpg" class="img-fluid" alt="..." data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal_preshoot">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleAutoplaying_preshoot" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleAutoplaying_preshoot" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!--Pre shoot Modal -->
+                            <div class="modal fade" id="exampleModal_preshoot" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered model-lg">
+                                    <div class="modal-content text-bg-dark">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Samples</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!--Model Carousel-->
+                                            <div id="demo_preshoot" class="carousel slide" data-bs-ride="carousel">
+
+                                                <!-- Indicators/dots -->
+                                                <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#demo_preshoot"
+                                                        data-bs-slide-to="0" class="active"></button>
+                                                    <button type="button" data-bs-target="#demo_preshoot"
+                                                        data-bs-slide-to="1"></button>
+                                                    <button type="button" data-bs-target="#demo_preshoot"
+                                                        data-bs-slide-to="2"></button>
+                                                    <button type="button" data-bs-target="#demo_preshoot"
+                                                        data-bs-slide-to="3"></button>
+                                                </div>
+
+                                                <!-- The slideshow/carousel -->
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="preshoot/1.jpg" alt="..." class="d-block w-100">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="preshoot/2.jpg" alt="..." class="d-block w-100">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="preshoot/3.jpg" alt="..." class="d-block w-100">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="preshoot/4.jpg" alt="..." class="d-block w-100">
+                                                    </div>
+                                                </div>
+
+                                                <!-- Left and right controls/icons -->
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#demo_preshoot" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#demo_preshoot" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+                                            <!--End of carousel-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Pre Shoot Model end-->
                         </a>
                         <div class="ps-md-5 mt-4 mt-md-0">
                             <div class="post-meta mt-4" id="about-us">update date 4/23/2024</div>
