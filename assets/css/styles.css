@@ -1,3 +1,32 @@
+@media (max-width: 574px) {
+  #pc-slider {
+    display: none;
+  }
+}
+
+@media (min-width: 575px) {
+  #mobile-slider {
+    display: none;
+  }
+}
+
+@media (max-width:987px) {
+  #frame-btn {
+    margin-top: 23px;
+  }
+}
+
+@media (max-width:765px){
+  #shoot-btn{
+    margin-top: 23px;
+  }
+}
+
+@media (min-width:1399px){
+  #frame-btn{
+    margin-top: 23px;
+  }
+}
 body {
   font-family: "Dosis", sans-serif;
 }
