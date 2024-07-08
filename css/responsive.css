@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .pccarousel {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobilecarousel {
+    display: none;
+  }
+
+  .pccarousel {
+    margin-top: 30px !important;
+    margin-inline: 50px;
+  }
+
+  .custom-carousel-img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .custom-carousel-img {
+    height: 900px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .pccarousel {
+    margin-top: 50px !important;
+    margin-inline: 80px;
+  }
+}
